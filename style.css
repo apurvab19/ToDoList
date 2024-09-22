@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    /* background-image: url(./assets/sample_bg_2.jpg); */
+    background-color: #FFF4EA;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: max-content;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.744);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 6px 6px  #C96868;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    font-weight: 700;
+    color: #FADFA1;
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#task-input, #due-date, #priority {
+    width: 26%;
+    padding: 10px;
+    /* margin-right: 10px; */
+    
+}
+
+#add-task-btn {
+    /* padding: 10px; */
+    background-color: #FADFA1;
+    box-shadow: 4px 4px #C96868;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+}
+#add-task-btn:hover {
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px #C96868; 
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
